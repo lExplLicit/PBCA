@@ -1,0 +1,27 @@
+{
+  "name": "PBCA - Payback Coupon Activator",
+  "description": "Payback Coupon Activator Extension. With this extension, all payback coupons can be activated with one click!",
+  "version": "1.2",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "tabs", "scripting"],
+  "host_permissions" : ["http://*/*", "https://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/pb.png",
+      "32": "/images/pb.png",
+      "48": "/images/pb.png",
+      "128": "/images/pb.png"
+    }
+  },
+  "icons": {
+    "16": "/images/pb.png",
+    "32": "/images/pb.png",
+    "48": "/images/pb.png",
+    "128": "/images/pb.png"
+  },
+  "options_page": "options.html"
+}

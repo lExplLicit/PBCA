@@ -1,0 +1,48 @@
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.1s ease-in;
+}
+
+body {
+  background-color: rgb(255 255 255);
+  border: 4px solid #0046aa;
+  border-radius: 10px;
+  width: 600px;
+}
+
+
+
+.container {
+  margin: 15px;
+}
+
+.btn {
+  margin-top: 10px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background-color: #0046aa;
+  color: white;
+}
+
+.btn:hover:enabled {
+  background-color: #0e3366;
+}
+
+.btntext {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover{
+  color: #0046aa;
+}
+
