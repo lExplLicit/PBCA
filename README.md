@@ -1,5 +1,6 @@
 # PBCA
 Payback Coupon Activator - Chrome Extension
+This Chrome extension provides a way to automatically activate all Payback coupons with one click.
 
 ## Installation
 1. Download repository
